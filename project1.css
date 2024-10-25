@@ -1,0 +1,6 @@
+@media (min-width:1000px) {
+    .card {
+        max-width: 500px !important;
+        justify-content: center;
+    }
+}
