@@ -34,11 +34,15 @@
       </div>
     </header>
 
+    <div class="container-fluid text-center titles">
+      <h1 class="col-12 titles">Contact</h1>
+    </div>
+
   <section class="container-fluid">
     <div class="row">
       <img class="col-3" src="telephoneBooth.JPG ">
       <div class="col-9 col-lg-8 col-xl-7">
-        <form class="container-fluid mt-3" id="formBorders">
+        <form class="container-fluid mt-3 formBorders">
           <h3 class="row text-center px-3 ">Want me to contact you? I'd be happy to! Fill out the form below so I can reach out :)</h3>
           <div class="row p-1">
           <label for="FName" class="col-4 col-lg-2 text-end">Full Name:</label>
@@ -53,15 +57,40 @@
               <input class="col-8 col-lg-10" type="tel" id="phone" name="phone">
             </div>
           <div class="row p-1">
-          <label for="message" class="col-4 col-lg-2 text-end">Message:</label>
-            <input class="col-8 col-lg-10" type="text" id="message" name="message">
+            <div class="col-4 col-lg-2 text-end">
+              Preferred Contact Mode:
+            </div>
+          <div class="col-8 col-lg-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Phone
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Email
+              </label>
+            </div>
           </div>
+        </div>
+        <div class="row">
+            <label for="message" class="col-4 col-lg-2 text-end">Message:</label>
+              <input class="col-8 col-lg-10" type="text" id="message" name="text">
+        </div>
+        
           <div class="row">
-            <label for="submit" class="col-1 offset-9"><input class="col3" type="submit" id="submit"></label>
+            <label for="submit" class="col-1 offset-9 mt-2"><input class="col3" type="submit" id="submit"></label>
           </div>
         </form>
       </div>
     </div>
   </section>
+
+  <footer class="sections text-center">
+    <p class="m-1 p-3">Have questions? Reach out through the form above!</p>
+  </footer>
+
 </body>
 </html>
