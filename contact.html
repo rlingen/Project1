@@ -9,24 +9,59 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="project1.css">
+    <script src="https://kit.fontawesome.com/9cb01e5c0c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
-</head>
-<body>
-    <header>
-        <ul class="nav nav-tabs">
+  </head>
+  <body class="abel-regular">
+    <header class="container-fluid">
+      <div class="row">
+      <img class="col-1 p-0 m-0" src="rl-logo.svg">
+        <ul class="nav nav-tabs col-11">
             <li class="nav-item">
-              <a class="nav-link" href="home.html">Home</a>
+              <a class="nav-link" href="home.html"><i class="fa-solid fa-house p-1"></i>Home</a>
                 </li>
             <li class="nav-item">
-              <a class="nav-link" href="education.html">Education</a>
+              <a class="nav-link" href="education.html"><i class="fa-solid fa-user-graduate p-1"></i>Education</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="experience-skills.html">Experience/Skills</a>
+              <a class="nav-link" href="experience-skills.html"><i class="fa-solid fa-check p-1"></i>Experience/Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-envelope p-1"></i>Contact</a>
             </li>
           </ul>
+      </div>
     </header>
+
+  <section class="container-fluid">
+    <div class="row">
+      <img class="col-3" src="telephoneBooth.JPG ">
+      <div class="col-9 col-lg-8 col-xl-7">
+        <form class="container-fluid mt-3" id="formBorders">
+          <h3 class="row text-center px-3 ">Want me to contact you? I'd be happy to! Fill out the form below so I can reach out :)</h3>
+          <div class="row p-1">
+          <label for="FName" class="col-4 col-lg-2 text-end">Full Name:</label>
+            <input class="col-8 col-lg-10" type="text" id="FName" name="Full Name">
+          </div>
+          <div class="row p-1">
+            <label for="email" class="col-4 col-lg-2 text-end">Email:</label>
+            <input class="col-8 col-lg-10" type="email" id="email" name="Email">
+          </div>
+          <div class="row p-1">
+            <label for="phone" class="col-4 col-lg-2 text-end">Phone:</label>
+              <input class="col-8 col-lg-10" type="tel" id="phone" name="phone">
+            </div>
+          <div class="row p-1">
+          <label for="message" class="col-4 col-lg-2 text-end">Message:</label>
+            <input class="col-8 col-lg-10" type="text" id="message" name="message">
+          </div>
+          <div class="row">
+            <label for="submit" class="col-1 offset-9"><input class="col3" type="submit" id="submit"></label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
