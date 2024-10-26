@@ -1,5 +1,5 @@
 # Project1
-<a href="home.html">Click here to see my full website</a>
+<a href="index.html">Click here to see my full website</a>
 Your Name: Rebekah Lingen <br>
 Date: Oct 26, 2024 <br>
 Topic of Website:  Personal Portfolio     
